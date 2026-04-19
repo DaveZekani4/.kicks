@@ -1,246 +1,516 @@
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Nike Store</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>.kicks</title>
 </head>
-
 <body>
-    <nav id="nav">
-        <div class="navTop">
-            <div class="navItem">
-                <img src="./logo.jpg" alt="">
-            </div>
-            <div class="navItem">
-                <div class="search">
-                    <input type="text" placeholder="Search..." class="searchInput">
-                    <img src="./search.png" width="20" height="20" alt="" class="searchIcon">
-                </div>
-            </div>
-            <div class="navItem">
-                <span class="limitedOffer">Limited Offer!</span>
-            </div>
-        </div>
-        <div class="navBottom">
-            <h3 class="menuItem">AIR FORCE</h3>
-            <h3 class="menuItem">JORDAN</h3>
-            <h3 class="menuItem">BLAZER</h3>
-            <h3 class="menuItem">CRATER</h3>
-            <h3 class="menuItem">HIPPIE</h3>
-        </div>
-    </nav>
-    <div class="slider">
-        <div class="sliderWrapper">
-            <div class="sliderItem">
-                <img src="./air.png" alt="" class="sliderImg">
-                <div class="sliderBg"></div>
-                <h1 class="sliderTitle">AIR FORCE</br> NEW</br> SEASON</h1>
-                <h2 class="sliderPrice">$119</h2>
-                <a href="#product">
-                    <button class="buyButton">BUY NOW!</button>
-                </a>
-            </div>
-            <div class="sliderItem">
-                <img src="./jordan.png" alt="" class="sliderImg">
-                <div class="sliderBg"></div>
-                <h1 class="sliderTitle">AIR JORDAN</br> NEW</br> SEASON</h1>
-                <h2 class="sliderPrice">$149</h2>
-                <a href="#product">
-                    <button class="buyButton">BUY NOW!</button>
-                </a>
-            </div>
-            <div class="sliderItem">
-                <img src="./blazer.png" alt="" class="sliderImg">
-                <div class="sliderBg"></div>
-                <h1 class="sliderTitle">BLAZER</br> NEW</br> SEASON</h1>
-                <h2 class="sliderPrice">$109</h2>
-                <a href="#product">
-                    <button class="buyButton">BUY NOW!</button>
-                </a>
-            </div>
-            <div class="sliderItem">
-                <img src="./crater.png" alt="" class="sliderImg">
-                <div class="sliderBg"></div>
-                <h1 class="sliderTitle">CRATER</br> NEW</br> SEASON</h1>
-                <h2 class="sliderPrice">$129</h2>
-                <a href="#product">
-                    <button class="buyButton">BUY NOW!</button>
-                </a>
-            </div>
-            <div class="sliderItem">
-                <img src="./hippie.png" alt="" class="sliderImg">
-                <div class="sliderBg"></div>
-                <h1 class="sliderTitle">HIPPIE</br> NEW</br> SEASON</h1>
-                <h2 class="sliderPrice">$99</h2>
-                <a href="#product">
-                    <button class="buyButton">BUY NOW!</button>
-                </a>
-            </div>
-        </div>
-    </div>
-   
-    <div class="features">
-        <div class="feature">
-            <img src="./shipping.png" alt="" class="featureIcon">
-            <span class="featureTitle">FREE SHIPPING</span>
-            <span class="featureDesc">Free worldwide shipping on all orders.</span>
-        </div>
-        <div class="feature">
-            <img class="featureIcon" src="./return.png" alt="">
-            <span class="featureTitle">30 DAYS RETURN</span>
-            <span class="featureDesc">No question return and easy refund in 14 days.</span>
-        </div>
-        <div class="feature">
-            <img class="featureIcon" src="./gift.png" alt="">
-            <span class="featureTitle">GIFT CARDS</span>
-            <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
-        </div>
-        <div class="feature">
-            <img class="featureIcon" src="./contact.png" alt="">
-            <span class="featureTitle">CONTACT US!</span>
-            <span class="featureDesc">Keep in touch via email and support system.</span>
-        </div>
-    </div>
 
-    <div class="product" id="product">
-        <img src="./air.png" alt="" class="productImg">
-        <div class="productDetails">
-            <h1 class="productTitle">AIR FORCE</h1>
-            <h2 class="productPrice">$199</h2>
-            <p class="productDesc">Lorem ipsum dolor sit amet consectetur impal adipisicing elit. Alias assumenda
-                dolorum
-                doloremque sapiente aliquid aperiam.</p>
-            <div class="colors">
-                <div class="color"></div>
-                <div class="color"></div>
-            </div>
-            <div class="sizes">
-                <div class="size">42</div>
-                <div class="size">43</div>
-                <div class="size">44</div>
-            </div>
-            <button class="productButton">BUY NOW!</button>
-        </div>
-        <div class="payment">
-            <h1 class="payTitle">Personal Information</h1>
-            <label>Name and Surname</label>
-            <input type="text" placeholder="John Doe" class="payInput">
-            <label>Phone Number</label>
-            <input type="text" placeholder="+1 234 5678" class="payInput">
-            <label>Address</label>
-            <input type="text" placeholder="Elton St 21 22-145" class="payInput">
-            <h1 class="payTitle">Card Information</h1>
-            <div class="cardIcons">
-                <img src="./visa.png" width="40" alt="" class="cardIcon">
-                <img src="./master.png" alt="" width="40" class="cardIcon">
-            </div>
-            <input type="password" class="payInput" placeholder="Card Number">
-            <div class="cardInfo">
-                <input type="text" placeholder="mm" class="payInput sm">
-                <input type="text" placeholder="yyyy" class="payInput sm">
-                <input type="text" placeholder="cvv" class="payInput sm">
-            </div>
-            <button class="payButton">Checkout!</button>
-            <span class="close">X</span>
-        </div>
+  <!-- CART DRAWER OVERLAY -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+
+  <!-- CART DRAWER -->
+  <div class="cart-drawer" id="cartDrawer">
+    <div class="cart-drawer-header">
+      <h2 class="cart-title">YOUR CART</h2>
+      <button class="cart-close-btn" id="cartCloseBtn">✕</button>
     </div>
-    <div class="gallery">
-        <div class="galleryItem">
-            <h1 class="galleryTitle">Be Yourself!</h1>
-            <img src="https://images.pexels.com/photos/9295809/pexels-photo-9295809.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-                alt="" class="galleryImg">
-        </div>
-        <div class="galleryItem">
-            <img src="https://images.pexels.com/photos/1040427/pexels-photo-1040427.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-                alt="" class="galleryImg">
-            <h1 class="galleryTitle">This is the First Day of Your New Life</h1>
-        </div>
-        <div class="galleryItem">
-            <h1 class="galleryTitle">Just Do it!</h1>
-            <img src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-                alt="" class="galleryImg">
-        </div>
+    <div class="cart-items" id="cartItems">
+      <div class="cart-empty" id="cartEmpty">
+        <span class="cart-empty-icon">
+          <svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12c0-1.5.8-2.8 2-3.5L7 5h10l2 3.5c1.2.7 2 2 2 3.5v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-2z"/><path d="M7 17v2"/><path d="M17 17v2"/><path d="M7 8h10"/></svg>
+        </span>
+        <p>Your cart is empty.<br>Go grab some kicks.</p>
+      </div>
     </div>
-    <div class="newSeason">
-        <div class="nsItem">
-            <img src="https://images.pexels.com/photos/4753986/pexels-photo-4753986.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-                alt="" class="nsImg">
-        </div>
-        <div class="nsItem">
-            <h3 class="nsTitleSm">WINTER NEW ARRIVALS</h3>
-            <h1 class="nsTitle">New Season</h1>
-            <h1 class="nsTitle">New Collection</h1>
-            <a href="#nav">
-                <button class="nsButton">CHOOSE YOUR STYLE</button>
-            </a>
-        </div>
-        <div class="nsItem">
-            <img src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-                alt="" class="nsImg">
-        </div>
+    <div class="cart-footer" id="cartFooter" style="display:none;">
+      <div class="cart-subtotal">
+        <span>SUBTOTAL</span>
+        <span id="cartTotal">$0</span>
+      </div>
+      <button class="btn-neo btn-checkout" id="openCheckoutBtn">CHECKOUT →</button>
+      <button class="btn-ghost" id="continueShopping">CONTINUE SHOPPING</button>
     </div>
-    <footer>
-        <div class="footerLeft">
-            <div class="footerMenu">
-                <h1 class="fMenuTitle">About Us</h1>
-                <ul class="fList">
-                    <li class="fListItem">Company</li>
-                    <li class="fListItem">Contact</li>
-                    <li class="fListItem">Careers</li>
-                    <li class="fListItem">Affiliates</li>
-                    <li class="fListItem">Stores</li>
-                </ul>
-            </div>
-            <div class="footerMenu">
-                <h1 class="fMenuTitle">Useful Links</h1>
-                <ul class="fList">
-                    <li class="fListItem">Support</li>
-                    <li class="fListItem">Refund</li>
-                    <li class="fListItem">FAQ</li>
-                    <li class="fListItem">Feedback</li>
-                    <li class="fListItem">Stories</li>
-                </ul>
-            </div>
-            <div class="footerMenu">
-                <h1 class="fMenuTitle">Products</h1>
-                <ul class="fList">
-                    <li class="fListItem">Air Force</li>
-                    <li class="fListItem">Air Jordan</li>
-                    <li class="fListItem">Blazer</li>
-                    <li class="fListItem">Crater</li>
-                    <li class="fListItem">Hippie</li>
-                </ul>
-            </div>
+  </div>
+
+  <!-- CHECKOUT MODAL (GLASSMORPHIC) -->
+  <div class="checkout-overlay" id="checkoutOverlay">
+    <div class="checkout-modal" id="checkoutModal">
+      <button class="checkout-close" id="checkoutClose">✕</button>
+      <div class="checkout-left">
+        <div class="checkout-brand">.kicks</div>
+        <h2 class="checkout-heading">Almost<br>There.</h2>
+        <div class="checkout-order-summary" id="checkoutSummary"></div>
+        <div class="checkout-total-line">
+          <span>TOTAL</span>
+          <span id="checkoutTotalDisplay">$0</span>
         </div>
-        <div class="footerRight">
-            <div class="footerRightMenu">
-                <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
-                <div class="fMail">
-                    <input type="text" placeholder="your@email.com" class="fInput">
-                    <button class="fButton">Join!</button>
-                </div>
-            </div>
-            <div class="footerRightMenu">
-                <h1 class="fMenuTitle">Follow Us</h1>
-                <div class="fIcons">
-                    <img src="./facebook.png" alt="" class="fIcon">
-                    <img src="./twitter.png" alt="" class="fIcon">
-                    <img src="./instagram.png" alt="" class="fIcon">
-                    <img src="./whatsapp.png" alt="" class="fIcon">
-                </div>
-            </div>
-            <div class="footerRightMenu">
-                <span class="copyright">Zekani K. All rights reserved. 2022.</span>
-            </div>
+        <div class="checkout-badges">
+          <span class="badge">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            Secure
+          </span>
+          <span class="badge">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            Fast
+          </span>
+          <span class="badge">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 14 4 9l5-5"/><path d="M4 9h10.5a5.5 5.5 0 0 1 0 11H11"/></svg>
+            30-Day Returns
+          </span>
         </div>
-    </footer>
-    <script src="./app.js"></script>
+      </div>
+      <div class="checkout-right">
+        <div class="checkout-steps">
+          <span class="step active" data-step="1">01 Info</span>
+          <span class="step-divider">—</span>
+          <span class="step" data-step="2">02 Delivery</span>
+          <span class="step-divider">—</span>
+          <span class="step" data-step="3">03 Payment</span>
+        </div>
+
+        <!-- Step 1 -->
+        <div class="checkout-step-content" id="step1">
+          <h3 class="step-title">Personal Info</h3>
+          <div class="form-group">
+            <label>Full Name</label>
+            <input type="text" class="glass-input" placeholder="John Doe" id="co-name">
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" class="glass-input" placeholder="john@email.com" id="co-email">
+          </div>
+          <div class="form-group">
+            <label>Phone</label>
+            <input type="tel" class="glass-input" placeholder="+234 800 000 0000" id="co-phone">
+          </div>
+          <button class="btn-glass-next" onclick="goToStep(2)">NEXT: DELIVERY →</button>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="checkout-step-content hidden" id="step2">
+          <h3 class="step-title">Delivery</h3>
+          <div class="form-group">
+            <label>Street Address</label>
+            <input type="text" class="glass-input" placeholder="123 Lagos Street" id="co-address">
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>City</label>
+              <input type="text" class="glass-input" placeholder="Lagos" id="co-city">
+            </div>
+            <div class="form-group">
+              <label>State</label>
+              <input type="text" class="glass-input" placeholder="Lagos State" id="co-state">
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Delivery Method</label>
+            <div class="delivery-options">
+              <label class="delivery-option">
+                <input type="radio" name="delivery" value="standard" checked>
+                <span>Standard (3-5 days) — Free</span>
+              </label>
+              <label class="delivery-option">
+                <input type="radio" name="delivery" value="express">
+                <span>Express (1-2 days) — $15</span>
+              </label>
+            </div>
+          </div>
+          <div class="btn-row">
+            <button class="btn-glass-back" onclick="goToStep(1)">← BACK</button>
+            <button class="btn-glass-next" onclick="goToStep(3)">NEXT: PAYMENT →</button>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="checkout-step-content hidden" id="step3">
+          <h3 class="step-title">Payment</h3>
+          <div class="card-icons-row">
+            <img src="./img/visa.png" width="44" alt="Visa">
+            <img src="./img/master.png" width="44" alt="Mastercard">
+            <span class="card-badge">256-bit SSL</span>
+          </div>
+          <div class="form-group">
+            <label>Card Number</label>
+            <input type="text" class="glass-input" placeholder="1234 5678 9012 3456" maxlength="19" id="co-card">
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>MM</label>
+              <input type="text" class="glass-input" placeholder="MM" maxlength="2" id="co-mm">
+            </div>
+            <div class="form-group">
+              <label>YYYY</label>
+              <input type="text" class="glass-input" placeholder="YYYY" maxlength="4" id="co-yyyy">
+            </div>
+            <div class="form-group">
+              <label>CVV</label>
+              <input type="password" class="glass-input" placeholder="•••" maxlength="3" id="co-cvv">
+            </div>
+          </div>
+          <div class="btn-row">
+            <button class="btn-glass-back" onclick="goToStep(2)">← BACK</button>
+            <button class="btn-glass-pay" onclick="processPayment()">PAY NOW <svg class="btn-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></button>
+          </div>
+        </div>
+
+        <!-- Success -->
+        <div class="checkout-step-content hidden" id="stepSuccess">
+          <div class="success-state">
+            <div class="success-icon">✓</div>
+            <h3>Order Confirmed!</h3>
+            <p>Your kicks are on their way.<br>Check your email for updates.</p>
+            <button class="btn-glass-next" onclick="closeCheckoutSuccess()">BACK TO SHOP</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT MODAL -->
+  <div class="contact-overlay" id="contactOverlay">
+    <div class="contact-modal">
+      <button class="contact-close" id="contactClose">✕</button>
+      <div class="contact-modal-inner">
+        <div class="contact-left-panel">
+          <div class="contact-brand">.kicks</div>
+          <h2 class="contact-heading">Let's<br>Talk.</h2>
+          <div class="contact-info-list">
+            <div class="contact-info-item">
+              <span class="contact-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </span>
+              <div>
+                <strong>Lagos HQ</strong><br>
+                <span>14 Balogun Street, Lagos Island</span>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <span class="contact-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.15 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.07 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16z"/></svg>
+              </span>
+              <div>
+                <strong>Phone</strong><br>
+                <span>+234 800 KICKS 01</span>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <span class="contact-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              </span>
+              <div>
+                <strong>Email</strong><br>
+                <span>hello@kicks.ng</span>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <span class="contact-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </span>
+              <div>
+                <strong>Hours</strong><br>
+                <span>Mon – Sat: 9AM – 7PM WAT</span>
+              </div>
+            </div>
+          </div>
+          <div class="contact-social">
+            <a href="#" class="social-pill">IG</a>
+            <a href="#" class="social-pill">TW</a>
+            <a href="#" class="social-pill">WA</a>
+            <a href="#" class="social-pill">FB</a>
+          </div>
+        </div>
+        <div class="contact-right-panel">
+          <h3 class="contact-form-title">Send a Message</h3>
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" class="neo-input" placeholder="John Doe">
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" class="neo-input" placeholder="john@email.com">
+          </div>
+          <div class="form-group">
+            <label>Subject</label>
+            <select class="neo-input">
+              <option>Order Inquiry</option>
+              <option>Return / Refund</option>
+              <option>Bulk / Wholesale</option>
+              <option>Partnership</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea class="neo-input neo-textarea" placeholder="Tell us what's on your mind..."></textarea>
+          </div>
+          <button class="btn-neo btn-contact-submit">SEND MESSAGE →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <div class="navTop">
+      <div class="navItem">
+        <a href="#" class="kicks-logo">.kicks</a>
+      </div>
+      <div class="navItem">
+        <div class="search">
+          <input type="text" placeholder="Search kicks..." class="searchInput" id="searchInput">
+          <img src="./img/search.png" width="20" height="20" alt="" class="searchIcon">
+        </div>
+      </div>
+      <div class="navItem nav-right-actions">
+        <span class="limitedOffer">Limited Drop!</span>
+        <button class="contact-trigger" id="contactTrigger">CONTACT</button>
+        <button class="cart-trigger" id="cartTrigger">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+          <span class="cart-badge" id="cartBadge">0</span>
+        </button>
+      </div>
+    </div>
+    <div class="navBottom">
+      <h3 class="menuItem" data-index="0">AIR FORCE</h3>
+      <h3 class="menuItem" data-index="1">JORDAN</h3>
+      <h3 class="menuItem" data-index="2">BLAZER</h3>
+      <h3 class="menuItem" data-index="3">CRATER</h3>
+      <h3 class="menuItem" data-index="4">HIPPIE</h3>
+    </div>
+  </nav>
+
+  <!-- ANNOUNCEMENT BAR -->
+  <div class="announcement-bar">
+    <span>🔥 NEW SEASON DROP — FREE SHIPPING ON ORDERS OVER $150</span>
+    <span>✦</span>
+    <span>USE CODE <strong>KICKS10</strong> FOR 10% OFF YOUR FIRST ORDER</span>
+    <span>✦</span>
+    <span>🔥 NEW SEASON DROP — FREE SHIPPING ON ORDERS OVER $150</span>
+  </div>
+
+  <!-- SLIDER -->
+  <div class="slider">
+    <div class="sliderWrapper">
+      <div class="sliderItem">
+        <img src="./img/air.png" alt="Air Force" class="sliderImg">
+        <div class="sliderBg"></div>
+        <h1 class="sliderTitle">AIR FORCE<br>NEW<br>SEASON</h1>
+        <h2 class="sliderPrice">$119</h2>
+        <a href="#product"><button class="buyButton">BUY NOW!</button></a>
+      </div>
+      <div class="sliderItem">
+        <img src="./img/jordan.png" alt="Air Jordan" class="sliderImg">
+        <div class="sliderBg"></div>
+        <h1 class="sliderTitle">AIR JORDAN<br>NEW<br>SEASON</h1>
+        <h2 class="sliderPrice">$149</h2>
+        <a href="#product"><button class="buyButton">BUY NOW!</button></a>
+      </div>
+      <div class="sliderItem">
+        <img src="./img/blazer.png" alt="Blazer" class="sliderImg">
+        <div class="sliderBg"></div>
+        <h1 class="sliderTitle">BLAZER<br>NEW<br>SEASON</h1>
+        <h2 class="sliderPrice">$109</h2>
+        <a href="#product"><button class="buyButton">BUY NOW!</button></a>
+      </div>
+      <div class="sliderItem">
+        <img src="./img/crater.png" alt="Crater" class="sliderImg">
+        <div class="sliderBg"></div>
+        <h1 class="sliderTitle">CRATER<br>NEW<br>SEASON</h1>
+        <h2 class="sliderPrice">$129</h2>
+        <a href="#product"><button class="buyButton">BUY NOW!</button></a>
+      </div>
+      <div class="sliderItem">
+        <img src="./img/hippie.png" alt="Hippie" class="sliderImg">
+        <div class="sliderBg"></div>
+        <h1 class="sliderTitle">HIPPIE<br>NEW<br>SEASON</h1>
+        <h2 class="sliderPrice">$99</h2>
+        <a href="#product"><button class="buyButton">BUY NOW!</button></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- FEATURES -->
+  <div class="features">
+    <div class="feature">
+      <img src="./img/shipping.png" alt="" class="featureIcon">
+      <span class="featureTitle">FREE SHIPPING</span>
+      <span class="featureDesc">Free worldwide shipping on all orders over $150.</span>
+    </div>
+    <div class="feature">
+      <img class="featureIcon" src="./img/return.png" alt="">
+      <span class="featureTitle">30 DAYS RETURN</span>
+      <span class="featureDesc">No-question return and easy refund in 30 days.</span>
+    </div>
+    <div class="feature">
+      <img class="featureIcon" src="./img/gift.png" alt="">
+      <span class="featureTitle">GIFT CARDS</span>
+      <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+    </div>
+    <div class="feature">
+      <img class="featureIcon" src="./img/contact.png" alt="">
+      <span class="featureTitle">CONTACT US!</span>
+      <span class="featureDesc">Support via email, WhatsApp, and live chat.</span>
+    </div>
+  </div>
+
+  <!-- PRODUCT SECTION -->
+  <div class="product" id="product">
+    <img src="./img/air.png" alt="" class="productImg">
+    <div class="productDetails">
+      <div class="product-tag">NEW DROP</div>
+      <h1 class="productTitle">AIR FORCE</h1>
+      <h2 class="productPrice">$119</h2>
+      <p class="productDesc">The classic silhouette reimagined for the new season. Lightweight, durable, and made to turn heads on any street.</p>
+      <div class="product-meta">
+        <span class="meta-label">COLOR</span>
+        <div class="colors">
+          <div class="color" title="Black"></div>
+          <div class="color" title="Dark Blue"></div>
+        </div>
+      </div>
+      <div class="product-meta">
+        <span class="meta-label">SIZE (EU)</span>
+        <div class="sizes">
+          <div class="size">40</div>
+          <div class="size">41</div>
+          <div class="size">42</div>
+          <div class="size">43</div>
+          <div class="size">44</div>
+          <div class="size">45</div>
+        </div>
+      </div>
+      <div class="product-actions">
+        <button class="btn-neo productButton" id="addToCartBtn">ADD TO CART +</button>
+        <button class="btn-outline wishlistBtn">
+          <svg class="btn-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          WISHLIST
+        </button>
+      </div>
+      <div class="product-trust">
+        <span>
+          <svg class="trust-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          Secure checkout
+        </span>
+        <span>
+          <svg class="trust-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+          Ships in 24hrs
+        </span>
+        <span>
+          <svg class="trust-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+          Authentic
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRODUCT GRID (all products) -->
+  <section class="all-products-section">
+    <div class="section-header">
+      <h2 class="section-title">ALL DROPS</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="products-grid" id="productsGrid"></div>
+  </section>
+
+  <!-- GALLERY -->
+  <div class="gallery">
+    <div class="galleryItem">
+      <h1 class="galleryTitle">Be Yourself!</h1>
+      <img src="https://images.pexels.com/photos/9295809/pexels-photo-9295809.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="galleryImg">
+    </div>
+    <div class="galleryItem">
+      <img src="https://images.pexels.com/photos/1040427/pexels-photo-1040427.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="galleryImg">
+      <h1 class="galleryTitle">First Day of Your New Life</h1>
+    </div>
+    <div class="galleryItem">
+      <h1 class="galleryTitle">Just Do It!</h1>
+      <img src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="galleryImg">
+    </div>
+  </div>
+
+  <!-- NEW SEASON -->
+  <div class="newSeason">
+    <div class="nsItem">
+      <img src="https://images.pexels.com/photos/4753986/pexels-photo-4753986.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="nsImg">
+    </div>
+    <div class="nsItem nsTextItem">
+      <h3 class="nsTitleSm">WINTER NEW ARRIVALS</h3>
+      <h1 class="nsTitle">New Season</h1>
+      <h1 class="nsTitle">New Collection</h1>
+      <a href="#nav"><button class="nsButton btn-neo">CHOOSE YOUR STYLE →</button></a>
+    </div>
+    <div class="nsItem">
+      <img src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="nsImg">
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footerLeft">
+      <div class="footer-brand-block">
+        <a href="#" class="kicks-logo kicks-logo-footer">.kicks</a>
+        <p class="footer-tagline">Premium kicks.<br>Lagos built. Global vibes.</p>
+      </div>
+      <div class="footerMenu">
+        <h1 class="fMenuTitle">About Us</h1>
+        <ul class="fList">
+          <li class="fListItem">Company</li>
+          <li class="fListItem" id="footerContact">Contact</li>
+          <li class="fListItem">Careers</li>
+          <li class="fListItem">Affiliates</li>
+          <li class="fListItem">Stores</li>
+        </ul>
+      </div>
+      <div class="footerMenu">
+        <h1 class="fMenuTitle">Useful Links</h1>
+        <ul class="fList">
+          <li class="fListItem">Support</li>
+          <li class="fListItem">Refund</li>
+          <li class="fListItem">FAQ</li>
+          <li class="fListItem">Feedback</li>
+          <li class="fListItem">Stories</li>
+        </ul>
+      </div>
+      <div class="footerMenu">
+        <h1 class="fMenuTitle">Products</h1>
+        <ul class="fList">
+          <li class="fListItem">Air Force</li>
+          <li class="fListItem">Air Jordan</li>
+          <li class="fListItem">Blazer</li>
+          <li class="fListItem">Crater</li>
+          <li class="fListItem">Hippie</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footerRight">
+      <div class="footerRightMenu">
+        <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+        <div class="fMail">
+          <input type="text" placeholder="your@email.com" class="fInput">
+          <button class="fButton btn-neo">JOIN!</button>
+        </div>
+      </div>
+      <div class="footerRightMenu">
+        <h1 class="fMenuTitle">Follow Us</h1>
+        <div class="fIcons">
+          <img src="./img/facebook.png" alt="Facebook" class="fIcon">
+          <img src="./img/twitter.png" alt="Twitter" class="fIcon">
+          <img src="./img/instagram.png" alt="Instagram" class="fIcon">
+          <img src="./img/whatsapp.png" alt="WhatsApp" class="fIcon">
+        </div>
+      </div>
+      <div class="footerRightMenu">
+        <span class="copyright">© .kicks — All rights reserved. 2026.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
 </body>
-
 </html>
