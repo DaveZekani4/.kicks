@@ -9,8 +9,8 @@ const products = [
     desc: "The classic silhouette reimagined for the new season. Lightweight, durable, and made to turn heads on any street.",
     badge: "BESTSELLER",
     colors: [
-      { code: "black",   img: "./img/air.png"  },
-      { code: "darkblue",img: "./img/air2.png" },
+      { code: "black",   img: "./air.png"  },
+      { code: "darkblue",img: "./air2.png" },
     ],
   },
   {
@@ -20,8 +20,8 @@ const products = [
     desc: "Iconic heritage meets modern comfort. The Jordan legacy, reloaded for 2026.",
     badge: "NEW DROP",
     colors: [
-      { code: "lightgray", img: "./img/jordan.png"  },
-      { code: "green",     img: "./img/jordan2.png" },
+      { code: "lightgray", img: "./jordan.png"  },
+      { code: "green",     img: "./jordan2.png" },
     ],
   },
   {
@@ -31,8 +31,8 @@ const products = [
     desc: "Court-inspired DNA. Street-ready attitude. The Blazer never goes out of style.",
     badge: "HOT",
     colors: [
-      { code: "lightgray", img: "./img/blazer.png"  },
-      { code: "green",     img: "./img/blazer2.png" },
+      { code: "lightgray", img: "./blazer.png"  },
+      { code: "green",     img: "./blazer2.png" },
     ],
   },
   {
@@ -42,8 +42,8 @@ const products = [
     desc: "Built from recycled materials. Light as air, hard as stone. The future of sustainable kicks.",
     badge: "ECO",
     colors: [
-      { code: "black",     img: "./img/crater.png"  },
-      { code: "lightgray", img: "./img/crater2.png" },
+      { code: "black",     img: "./crater.png"  },
+      { code: "lightgray", img: "./crater2.png" },
     ],
   },
   {
@@ -53,8 +53,8 @@ const products = [
     desc: "Free spirit, full comfort. The Hippie brings laid-back California vibes to every step.",
     badge: "LIMITED",
     colors: [
-      { code: "gray",  img: "./img/hippie.png"  },
-      { code: "black", img: "./img/hippie2.png" },
+      { code: "gray",  img: "./hippie.png"  },
+      { code: "black", img: "./hippie2.png" },
     ],
   },
 ];
