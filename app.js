@@ -53,8 +53,8 @@ const products = [
     desc: "Free spirit, full comfort. The Hippie brings laid-back California vibes to every step.",
     badge: "LIMITED",
     colors: [
-      { code: "gray",  img: "/hippie.png"  },
-      { code: "black", img: "/hippie2.png" },
+      { code: "gray",  img: "./hippie.png"  },
+      { code: "black", img: "./hippie2.png" },
     ],
   },
 ];
